@@ -142,7 +142,7 @@
 		(uuid "588e8a7c-a1a4-437c-a449-aca4a16c4ca5")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CAP-TH_L26.5-W11.0-H23.0-P22.5.wrl"
+	(model "${KIPRJMOD}/Custom Parts/parts.3dmodels/CAP-TH_L26.5-W11.0-H23.0-P22.5.step"
 		(offset
 			(xyz 0 -5.5 11.5)
 		)

@@ -1,0 +1,167 @@
+(footprint "CAP-TH_BD10.0-P5.00-D1.0-FD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1833b378-4606-4526-959f-5716a1c924d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1000u"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "71e199c5-f364-4b7f-bcfb-f9d45d6cf49d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f549d5fb-767c-447c-b78b-0dfb6c8380c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Polarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b6726b0-95b8-4e08-9041-902f9abdc01a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.57 0)
+		(end -3.56 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "093851cc-2703-4c0d-bc46-3a9c20af0497")
+	)
+	(fp_line
+		(start -4.06 -0.76)
+		(end -4.06 0.76)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7cd4046-20f4-4a34-a0df-f32092e4518d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4c98f3cb-4ec3-46c0-9a27-be6f46f117c7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c758183f-b18b-46ba-871d-eda031d3d827")
+	)
+	(fp_circle
+		(center -5 5)
+		(end -4.97 5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4a42b2ee-1260-4390-b5a6-6769a9d60c9f")
+	)
+	(fp_circle
+		(center -2.54 0)
+		(end -2.39 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c7334b92-fc73-4ea6-ad93-6bba668af63c")
+	)
+	(fp_circle
+		(center 2.54 0)
+		(end 2.69 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c8a41def-4c2e-4f6a-b570-6e10ee8f5c4b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "42315d4f-501f-48f2-8e34-193c07c13bf8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37e25143-850c-4bc9-8102-d7b88c8dbcf6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.6 1.6)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "327b4655-b155-4b02-b941-6f351461c261")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom Parts/parts.3dshapes/CAP-TH_D10.0-H16.0-P5.00.wrl"
+		(offset
+			(xyz 0 -0 12.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -4,10 +4,9 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -4 180)
+		(at 0 -4 0)
 		(layer "F.SilkS")
-		(hide yes)
-		(uuid "f1f35a28-6838-4e6d-9952-6da3b6ed2521")
+		(uuid "51790e76-3b93-4fe0-a9db-52e63510906c")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "KF635-6.35-2P"
-		(at 0 4 180)
+	(property "Value" "Mains"
+		(at 0 4 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "70cf6c39-a488-4095-9876-dfd5df58cf8a")
+		(uuid "8bca3208-afee-4ecd-bc0b-a058265cc685")
 		(effects
 			(font
 				(size 1 1)
@@ -28,10 +26,10 @@
 		)
 	)
 	(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF635-6-35-2P_C475102.html"
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e37f2cc0-59c2-4ae7-9cd4-3056988089f1")
+		(uuid "1f02885f-87a9-4e27-88a6-07e4632dedb7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,10 +38,10 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 180)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "876e93fc-5d63-4b5c-976d-9b06d27368d4")
+		(uuid "26a6d645-10b5-4b8b-ba4c-c790c503d163")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +54,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "16b5d8f4-f40e-4f6a-8ad4-21870145c2dc")
+		(uuid "b871811c-d726-4e74-a02e-6dc0c1414ef7")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +62,6 @@
 			)
 		)
 	)
-	(zone_connect 2)
 	(attr through_hole)
 	(fp_line
 		(start -6.98 -4.38)
@@ -74,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c56430bc-573e-4ccc-90ce-b399c4028f38")
+		(uuid "a597a321-283b-426c-bd2d-664ba87e0db5")
 	)
 	(fp_line
 		(start -6.98 -3.3)
@@ -84,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "37048c3e-29b8-4de9-8dae-ce59d4fbc5b1")
+		(uuid "75faa48d-10b6-4c98-ad13-0533643cd8a5")
 	)
 	(fp_line
 		(start -6.97 5.33)
@@ -94,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "703955ac-7111-41a4-8dcc-8bc9cca1b279")
+		(uuid "5dacda8e-8a9c-4f9d-8379-26c3e6097734")
 	)
 	(fp_line
 		(start -6.97 6.41)
@@ -104,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d082f7ad-dfc1-4684-9271-1375bf49aef5")
+		(uuid "0d069cc8-2364-4376-97a7-e8b006c082bc")
 	)
 	(fp_line
 		(start -6.35 -5.6)
@@ -114,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2eadf2ab-274a-4557-91a2-50d4afa970a6")
+		(uuid "37b40a50-dac8-49f0-b66d-93b27f68f03e")
 	)
 	(fp_line
 		(start -6.35 -5.6)
@@ -124,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b761e952-f2ac-4c29-a200-400c274313f1")
+		(uuid "d1c31b51-539c-4bd4-b0a5-7a9e2638e839")
 	)
 	(fp_line
 		(start -6.35 -4.38)
@@ -134,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c96bcc89-9df7-4e5a-b9fc-bce069c43600")
+		(uuid "e7d8d9d5-205c-4acf-bd5b-8c151a84a19e")
 	)
 	(fp_line
 		(start -6.35 -4.08)
@@ -144,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9bea873b-5541-4ff7-a613-b359ac53af65")
+		(uuid "709d160c-ce44-4593-9020-8cf711f8e3e5")
 	)
 	(fp_line
 		(start -6.35 -2.57)
@@ -154,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "368ac51c-286b-4a2e-9c17-9fa46371f1fc")
+		(uuid "dca79c16-170e-4fc4-846c-7833069f6883")
 	)
 	(fp_line
 		(start -6.35 2.65)
@@ -164,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "98f79a40-d9e2-417f-9546-52a07e3e8393")
+		(uuid "c4b6db30-9350-4eb3-853a-0b5938c943f2")
 	)
 	(fp_line
 		(start -6.35 5.33)
@@ -174,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9e1dbd02-d2bf-4fff-bec2-6e6b6a0058d5")
+		(uuid "0062e08a-6519-4316-b290-68ab2dfd85e8")
 	)
 	(fp_line
 		(start -6.35 6.41)
@@ -184,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8f6a0ce1-2675-4e10-9bf9-41690445384d")
+		(uuid "6731fdb0-2eab-456f-b9a0-ac500f9e98f6")
 	)
 	(fp_line
 		(start -6.35 7.2)
@@ -194,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e7feb2d2-50f6-47fc-98f6-10846e62f457")
+		(uuid "5c1c546d-0288-4244-a8b3-3ebb443332b0")
 	)
 	(fp_line
 		(start 6.36 -5.6)
@@ -204,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e8341a3d-f403-43fc-9fbd-1075aca8d7b5")
+		(uuid "8ed8eefc-151f-4624-a119-44bb59c0b1ec")
 	)
 	(fp_circle
 		(center -7.11 7.33)
@@ -215,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7d1673d1-c230-4867-9b97-c6039ff28849")
+		(uuid "c5cb7f07-732b-40a8-aa77-f34fa6278404")
 	)
 	(fp_circle
 		(center -3.17 0)
@@ -226,7 +223,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2c2a4dff-e6b1-4a70-adee-5c354162815c")
+		(uuid "3f4ff825-b210-4ac2-9017-c5b7d7b23ee2")
 	)
 	(fp_circle
 		(center 3.18 0)
@@ -237,7 +234,18 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c8b0566e-f193-4b33-8390-8bd18816cd6f")
+		(uuid "e5fc5147-2432-4479-b2b7-3ce31ef37374")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1b620e82-553f-4c0c-978d-52ca89cfac6a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(pad "1" thru_hole circle
 		(at -3.17 0)
@@ -245,7 +253,7 @@
 		(drill 1.999996)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "26be0835-ea26-432f-af03-6f2556e9ca2b")
+		(uuid "0f8268e8-9b99-40c2-913f-9f8437d6e1ff")
 	)
 	(pad "2" thru_hole circle
 		(at 3.18 0)
@@ -253,10 +261,10 @@
 		(drill 1.999996)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cb405e4a-0733-4141-9b54-7c06d0c9f58b")
+		(uuid "5b699b64-8019-4ffc-a7b8-5cbb03247e6f")
 	)
 	(embedded_fonts no)
-	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_P6.35_KF635-6.35-2P.wrl"
+	(model "${KIPRJMOD}/Custom Parts/parts.3dshapes/CONN-TH_P6.35_KF635-6.35-2P.wrl"
 		(offset
 			(xyz -0.2 -0.8 0)
 		)
