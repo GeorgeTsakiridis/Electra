@@ -1,0 +1,188 @@
+(footprint "TO-247-3_L15.9-W5.1-P5.44-L"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f214af8e-ad1b-4f27-919c-37dd454a8cca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DSP45-16A"
+		(at 0.06 6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f4c724e-3bf7-4057-b358-ce68a7a8d9f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/Diodes-General-Purpose_IXYS-DSP45-16A_C426676.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3ae083b-cc80-4dbc-9cc2-5d16904b4aa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d924a75d-4d57-4915-a7fa-bd3041d6d980")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C426676"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b894c323-794d-4198-b47e-e9026597efd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_line
+		(start -8.15 -2.7)
+		(end -8.15 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1bcf7dcf-e99d-4a53-a2d7-ad1b0df96786")
+	)
+	(fp_line
+		(start 8.15 -2.7)
+		(end -8.15 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9561f389-1ab7-4a1b-9481-0d73cfea34ca")
+	)
+	(fp_line
+		(start 8.15 -2.2)
+		(end -8.15 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6eb3c8c8-ee1c-4b6e-860d-10d742359f07")
+	)
+	(fp_line
+		(start 8.15 2.6)
+		(end -8.15 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df2d84cf-14f9-4b87-b360-a537d6c06b57")
+	)
+	(fp_line
+		(start 8.15 2.6)
+		(end 8.15 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b9a460f-6a55-4b78-8f7c-53e97eaa7da7")
+	)
+	(fp_arc
+		(start -8.57 -0.23)
+		(mid -8.57 -0.23)
+		(end -8.57 -0.23)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0b0c57c-94b4-4909-ae93-0db7750d9506")
+	)
+	(fp_circle
+		(center -7.95 2.39)
+		(end -7.92 2.39)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "94d5ee1e-59f5-4434-a49a-63a1663b9ef8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "b47b73b5-e88f-4c25-a843-36b9cd9425c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -5.56 0 90)
+		(size 2 2.8)
+		(drill oval 1.199998 1.999996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "10919bea-3bac-47f2-b536-c54b12f5f6f6")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0 90)
+		(size 2 2.8)
+		(drill oval 1.199998 1.999996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "114e9c02-3f8a-4d91-b779-19507ff5f448")
+	)
+	(pad "3" thru_hole oval
+		(at 5.56 0 90)
+		(size 2 2.8)
+		(drill oval 1.199998 1.999996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db8e33b9-2985-4351-894e-27760c3dbd72")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TO-247_3PIN-L15.9-W5.1-H25.0-P5.44-L.wrl"
+		(offset
+			(xyz 0 0.3 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

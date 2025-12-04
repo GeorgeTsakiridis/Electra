@@ -1,0 +1,270 @@
+(footprint "CONN-TH_P6.35_KF635-6.35-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f1f35a28-6838-4e6d-9952-6da3b6ed2521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KF635-6.35-2P"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "70cf6c39-a488-4095-9876-dfd5df58cf8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF635-6-35-2P_C475102.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e37f2cc0-59c2-4ae7-9cd4-3056988089f1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "876e93fc-5d63-4b5c-976d-9b06d27368d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C475102"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16b5d8f4-f40e-4f6a-8ad4-21870145c2dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole)
+	(fp_line
+		(start -6.98 -4.38)
+		(end -6.98 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c56430bc-573e-4ccc-90ce-b399c4028f38")
+	)
+	(fp_line
+		(start -6.98 -3.3)
+		(end -6.35 -3.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37048c3e-29b8-4de9-8dae-ce59d4fbc5b1")
+	)
+	(fp_line
+		(start -6.97 5.33)
+		(end -6.97 6.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "703955ac-7111-41a4-8dcc-8bc9cca1b279")
+	)
+	(fp_line
+		(start -6.97 6.41)
+		(end -6.35 6.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d082f7ad-dfc1-4684-9271-1375bf49aef5")
+	)
+	(fp_line
+		(start -6.35 -5.6)
+		(end -6.35 7.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eadf2ab-274a-4557-91a2-50d4afa970a6")
+	)
+	(fp_line
+		(start -6.35 -5.6)
+		(end 6.36 -5.6)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b761e952-f2ac-4c29-a200-400c274313f1")
+	)
+	(fp_line
+		(start -6.35 -4.38)
+		(end -6.98 -4.38)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c96bcc89-9df7-4e5a-b9fc-bce069c43600")
+	)
+	(fp_line
+		(start -6.35 -4.08)
+		(end 6.36 -4.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bea873b-5541-4ff7-a613-b359ac53af65")
+	)
+	(fp_line
+		(start -6.35 -2.57)
+		(end 6.36 -2.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "368ac51c-286b-4a2e-9c17-9fa46371f1fc")
+	)
+	(fp_line
+		(start -6.35 2.65)
+		(end 6.36 2.65)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98f79a40-d9e2-417f-9546-52a07e3e8393")
+	)
+	(fp_line
+		(start -6.35 5.33)
+		(end -6.97 5.33)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e1dbd02-d2bf-4fff-bec2-6e6b6a0058d5")
+	)
+	(fp_line
+		(start -6.35 6.41)
+		(end 6.36 6.41)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f6a0ce1-2675-4e10-9bf9-41690445384d")
+	)
+	(fp_line
+		(start -6.35 7.2)
+		(end 6.36 7.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7feb2d2-50f6-47fc-98f6-10846e62f457")
+	)
+	(fp_line
+		(start 6.36 -5.6)
+		(end 6.36 7.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8341a3d-f403-43fc-9fbd-1075aca8d7b5")
+	)
+	(fp_circle
+		(center -7.11 7.33)
+		(end -7.08 7.33)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7d1673d1-c230-4867-9b97-c6039ff28849")
+	)
+	(fp_circle
+		(center -3.17 0)
+		(end -2.72 0)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2c2a4dff-e6b1-4a70-adee-5c354162815c")
+	)
+	(fp_circle
+		(center 3.18 0)
+		(end 3.63 0)
+		(stroke
+			(width 0.9)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c8b0566e-f193-4b33-8390-8bd18816cd6f")
+	)
+	(pad "1" thru_hole circle
+		(at -3.17 0)
+		(size 2.8 2.8)
+		(drill 1.999996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26be0835-ea26-432f-af03-6f2556e9ca2b")
+	)
+	(pad "2" thru_hole circle
+		(at 3.18 0)
+		(size 2.8 2.8)
+		(drill 1.999996)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb405e4a-0733-4141-9b54-7c06d0c9f58b")
+	)
+	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_P6.35_KF635-6.35-2P.wrl"
+		(offset
+			(xyz -0.2 -0.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
