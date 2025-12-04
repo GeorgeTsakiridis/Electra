@@ -1,0 +1,235 @@
+(footprint "CONN-TH_2P-P2.50_HX25003-2WAP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "fa0f8d38-5225-42e8-bde4-4045ca0c7195")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_2P-P2.50_HX25003-2WAP"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "5e8209d7-7e88-4f4f-9f41-5a1f1e189102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "163bf1d2-bf22-4739-ae5a-a3d037ef8e9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ddc2163-bc31-46f3-bea2-f7e868e391ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.75 0)
+		(end -2.38 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86aee263-d198-4e30-a45b-1b30cecd77cf")
+	)
+	(fp_line
+		(start -3.75 7.7)
+		(end -3.75 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3bdea300-b482-4a54-acec-37352a57a517")
+	)
+	(fp_line
+		(start -3.75 7.7)
+		(end 3.75 7.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca9551c0-8763-4045-93a8-20d421a5f3c6")
+	)
+	(fp_line
+		(start -2.13 3.12)
+		(end 2.12 3.12)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c3f4642-69c8-436a-95e1-4f02234619c0")
+	)
+	(fp_line
+		(start -2.13 7.7)
+		(end -2.13 3.12)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5fc737b-9a40-4912-a5f7-77dd451b4f63")
+	)
+	(fp_line
+		(start -1 7.7)
+		(end -2.13 7.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11082445-e90b-4e75-99f6-2044199230ca")
+	)
+	(fp_line
+		(start -0.12 0)
+		(end 0.12 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54d9fb45-e3cb-4013-9add-41bfca18621d")
+	)
+	(fp_line
+		(start 2.12 3.12)
+		(end 2.12 7.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ea07071-c1b4-452a-b43f-3546394902c7")
+	)
+	(fp_line
+		(start 2.12 7.7)
+		(end 0.87 7.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f463d36-99e9-48cb-9d45-28c307a9a0b3")
+	)
+	(fp_line
+		(start 3.75 0)
+		(end 2.38 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c432e85b-7455-40f0-91e7-004f6da379a7")
+	)
+	(fp_line
+		(start 3.75 7.7)
+		(end 3.75 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fce52973-0a0c-47fe-93bb-4ffcec1da15b")
+	)
+	(fp_circle
+		(center -3.88 7.83)
+		(end -3.85 7.83)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1087027e-d413-40d6-9de9-eefccfca5380")
+	)
+	(fp_circle
+		(center -1.25 0)
+		(end -1.03 0)
+		(stroke
+			(width 0.45)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cddad572-8605-4784-9138-d4dfc5408103")
+	)
+	(fp_circle
+		(center 1.25 0)
+		(end 1.47 0)
+		(stroke
+			(width 0.45)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5abd195f-c827-4349-8dfb-b0757ce667e8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c5fd97ba-8671-4d50-91b0-d5a134117fe8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.25 0)
+		(size 1.8 1.8)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a3e740e6-7ad6-4f14-9b21-3f6699dac739")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0)
+		(size 1.8 1.8)
+		(drill 1.100023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "413fb859-6751-4f21-a448-06715af5c43d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom Parts/parts.3dshapes/CONN-TH_2P-P2.50_HX25003-2WAP.wrl"
+		(offset
+			(xyz 0 -3.55 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)
